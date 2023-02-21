@@ -48,6 +48,27 @@ body{
   height: 250px;
 }
 
+.skillText li {
+position: relative;
+}
+
+.skillText li::before {
+  content: '';
+  background: white;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  transition: all 0.3s ease-in-out; 
+}
+
+.skillText li:hover::before {
+  width: 30%;
+}
+
+
 .textStyle{
   color: white;
   padding-left: 16%;
