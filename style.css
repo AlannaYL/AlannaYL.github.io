@@ -34,6 +34,20 @@ p {
   line-height: 50px
 }
 
+.border-success {
+  border: none !important
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
 #centerTitle {
   text-align: center;
   width: 100%;
@@ -41,23 +55,16 @@ p {
   margin-top: 2rem;
 }
 
-#aboutMe{
+#Myvue{
   background-color: #86A697;
   height: 56%;
   margin-bottom: 2rem;
-  display: flex;
-  align-items: center;
   padding: 16px 52px;
 }
 .row{
   margin: auto;
 }
 
-img {
-  height: 200px;
-  object-fit: cover;
-  object-position: top;
-}
 
 .btn {
   background: #376B6D !important; 
