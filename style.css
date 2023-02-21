@@ -148,6 +148,36 @@ h5 {
   border-radius: 20px;
 }
 
+#section05 {
+  padding: 0 4rem;
+}
+
 #section05 h1 {
   text-align: center;
+}
+
+.card-title{
+  color: #86A697;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-bottom: .5rem;
+}
+
+.card-text {
+  color: black;
+  margin-top: 1rem;
+}
+
+.h2 {
+  margin: 1.25rem;
+  padding: 0.25rem 1rem;
+  border-left: 5px solid #86A697;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
